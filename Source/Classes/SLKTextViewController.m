@@ -1218,11 +1218,12 @@
     }
 }
 
-// iOS8 only
-- (void)willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
-{
-    [self prepareForInterfaceRotation];
-}
+#warning review this method in the future
+// // iOS8 only
+// - (void)willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+// {
+//     [self prepareForInterfaceRotation];
+// }
 
 - (NSUInteger)supportedInterfaceOrientations
 {
